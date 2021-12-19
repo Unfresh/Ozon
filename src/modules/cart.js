@@ -12,10 +12,11 @@ const cart = () => {
         cartModal.style.display = 'none';
     }
 
-
     cartBtn.addEventListener('click', openModal);
 
     cartClose.addEventListener('click', closeModal);
 };
+
+
 
 export default cart;
